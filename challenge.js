@@ -3,7 +3,7 @@
 */
 var givenName;
 // Q: What does `givenName` equal right now?
-// A: identifying or naming the variable we are about to set it to
+// A: var givenName is undefined because it hasnt been set to anything yet.
 
 
 givenName = "Jess";
@@ -13,12 +13,12 @@ givenName = "Jess";
 
 givenName = givenName;
 // Q: What is `givenName` set to right now?
-// A:givenName
+// A: givenName is equal to Jess.
 
 
 var greeting = "Hello, how are you? " + givenName;
 // Q: What is `greeting` set to?
-// A: Hello, how are you and the givenName which is set to Jess
+// A: Hello, how are you? Jess
 
 
 /*=========================================================
@@ -31,11 +31,11 @@ var low  = 10;
 
 var math = high - low;
 // Q: What is `math` set to?
-// A: the variable we names high (50) - the variable we named low (10)
+// A: math is =  40.
 
 math = high - "5";
 // Q: What is `math` set to?
-// A: the variable we named high (50) - 5
+// A: math = 45
 
 
 /* =========================================================
@@ -50,14 +50,14 @@ var today = 2016;
 
 // Answers Below:
 
-var age = today - born;
+var age = "jess is " + (today - born) + "years old" ;
 
 // Store some information following in variables.
 var yourName;
 var instructorName;
 
-var Haley;
-var jess;
+yourName= 'Haley';
+instructorName= 'jess';
 // Update the variables above so the expression reads correctly.
 // Answers Below:
 
